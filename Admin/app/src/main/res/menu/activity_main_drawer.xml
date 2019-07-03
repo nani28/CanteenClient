@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/add_product"
+            android:icon="@drawable/ic_cloud_upload_black_24dp"
+            android:title="Add Product" />
+        <item
+            android:id="@+id/update_product"
+            android:icon="@drawable/ic_publish_black_24dp"
+            android:title="Update Product" />
+        <item
+            android:id="@+id/delete_product"
+            android:icon="@drawable/ic_delete_forever_black_24dp"
+            android:title="Delete Product" />
+        <item
+            android:id="@+id/order_list"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Order List" />
+        <item
+            android:id="@+id/scan_qr_code"
+            android:icon="@drawable/ic_scanner_black_24dp"
+            android:title="Scan OR Code" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
